@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAM___Batalha_naval.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="Aqua" Offset="1.3"></GradientStop>
+            <GradientStop Color="Yellow" Offset="0.1"></GradientStop>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <Style TargetType="Button" >
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="BorderWidth" Value="1"/>
+            <Setter Property="BorderColor" Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid x:Name="gridTabuleiro" RowDefinitions="*, *, *, *, *, *, *, *, *, *" 
+                                 ColumnDefinitions="*, *, *, *, *, *, *, *, *" 
+                                 ColumnSpacing="5" RowSpacing="5" Margin="5">
+
+        <Button x:Name="btnr10" Grid.Row="0" Grid.Column="0" />
+            <Button x:Name="btnr11" Grid.Row="1" Grid.Column="0" />
+            <Button x:Name="btnr12" Grid.Row="2" Grid.Column="0" />
+            <Button x:Name="btnr13" Grid.Row="3" Grid.Column="0" />
+            <Button x:Name="btnr14" Grid.Row="4" Grid.Column="0" />
+            <Button x:Name="btnr15" Grid.Row="5" Grid.Column="0" />
+            <Button x:Name="btnr16" Grid.Row="6" Grid.Column="0" />
+            <Button x:Name="btnr17" Grid.Row="7" Grid.Column="0" />
+            <Button x:Name="btnr18" Grid.Row="8" Grid.Column="0" />
+            <Button x:Name="btnr19" Grid.Row="9" Grid.Column="0" />
+            <Button x:Name="btnr110" Grid.Row="10" Grid.Column="0" />
+            <Button x:Name="btnr111" Grid.Row="11" Grid.Column="0" />
+
+            <Button x:Name="btnr20" Grid.Row="0" Grid.Column="1" />
+            <Button x:Name="btnr21" Grid.Row="1" Grid.Column="1" />
+            <Button x:Name="btnr22" Grid.Row="2" Grid.Column="1" />
+            <Button x:Name="btnr23" Grid.Row="3" Grid.Column="1" />
+            <Button x:Name="btnr24" Grid.Row="4" Grid.Column="1" />
+            <Button x:Name="btnr25" Grid.Row="5" Grid.Column="1" />
+            <Button x:Name="btnr26" Grid.Row="6" Grid.Column="1" />
+            <Button x:Name="btnr27" Grid.Row="7" Grid.Column="1" />
+            <Button x:Name="btnr28" Grid.Row="8" Grid.Column="1" />
+            <Button x:Name="btnr29" Grid.Row="9" Grid.Column="1" />
+            <Button x:Name="btnr210" Grid.Row="10" Grid.Column="1" />
+            <Button x:Name="btnr211" Grid.Row="11" Grid.Column="1" />
+
+            <Button x:Name="btnr30" Grid.Row="0" Grid.Column="2" />
+            <Button x:Name="btnr31" Grid.Row="1" Grid.Column="2" />
+            <Button x:Name="btnr32" Grid.Row="2" Grid.Column="2" />
+            <Button x:Name="btnr33" Grid.Row="3" Grid.Column="2" />
+            <Button x:Name="btnr34" Grid.Row="4" Grid.Column="2" />
+            <Button x:Name="btnr35" Grid.Row="5" Grid.Column="2" />
+            <Button x:Name="btnr36" Grid.Row="6" Grid.Column="2" />
+            <Button x:Name="btnr37" Grid.Row="7" Grid.Column="2" />
+            <Button x:Name="btnr38" Grid.Row="8" Grid.Column="2" />
+            <Button x:Name="btnr39" Grid.Row="9" Grid.Column="2" />
+            <Button x:Name="btnr310" Grid.Row="10" Grid.Column="2" />
+            <Button x:Name="btnr311" Grid.Row="11" Grid.Column="2" />
+
+            <Button x:Name="btnr40" Grid.Row="0" Grid.Column="3" />
+            <Button x:Name="btnr41" Grid.Row="1" Grid.Column="3" />
+            <Button x:Name="btnr42" Grid.Row="2" Grid.Column="3" />
+            <Button x:Name="btnr43" Grid.Row="3" Grid.Column="3" />
+            <Button x:Name="btnr44" Grid.Row="4" Grid.Column="3" />
+            <Button x:Name="btnr45" Grid.Row="5" Grid.Column="3" />
+            <Button x:Name="btnr46" Grid.Row="6" Grid.Column="3" />
+            <Button x:Name="btnr47" Grid.Row="7" Grid.Column="3" />
+            <Button x:Name="btnr48" Grid.Row="8" Grid.Column="3" />
+            <Button x:Name="btnr49" Grid.Row="9" Grid.Column="3" />
+            <Button x:Name="btnr410" Grid.Row="10" Grid.Column="3" />
+            <Button x:Name="btnr411" Grid.Row="11" Grid.Column="3" />
+
+            <Button x:Name="btnr50" Grid.Row="0" Grid.Column="4" />
+            <Button x:Name="btnr51" Grid.Row="1" Grid.Column="4" />
+            <Button x:Name="btnr52" Grid.Row="2" Grid.Column="4" />
+            <Button x:Name="btnr53" Grid.Row="3" Grid.Column="4" />
+            <Button x:Name="btnr54" Grid.Row="4" Grid.Column="4" />
+            <Button x:Name="btnr55" Grid.Row="5" Grid.Column="4" />
+            <Button x:Name="btnr56" Grid.Row="6" Grid.Column="4" />
+            <Button x:Name="btnr57" Grid.Row="7" Grid.Column="4" />
+            <Button x:Name="btnr58" Grid.Row="8" Grid.Column="4" />
+            <Button x:Name="btnr59" Grid.Row="9" Grid.Column="4" />
+            <Button x:Name="btnr510" Grid.Row="10" Grid.Column="4" />
+            <Button x:Name="btnr511" Grid.Row="11" Grid.Column="4" />
+
+        </Grid>
+
+</ContentPage>
