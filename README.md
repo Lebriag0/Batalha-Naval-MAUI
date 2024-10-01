@@ -1,4 +1,4 @@
-# Batalha Naval em .NET MAUI
+# Batalha Naval em .NET MAUI (V1.0.0)
 
 Este é um projeto de um jogo de **Batalha Naval** desenvolvido em **.NET MAUI**. O objetivo do jogo é destruir os navios do oponente, alternando turnos entre o jogador esquerdo e o jogador direito. O tabuleiro é unificado, com navios posicionados automaticamente para ambos os lados.
 
